@@ -2,7 +2,7 @@ Any info relevant to the project here:
 use the connection string below to login 
 
 
-sample-cluster.czjqn2vqlksv.us-east-1.redshift.amazonaws.com:5439/samplecluster
+psql -h sample-cluster.czjqn2vqlksv.us-east-1.redshift.amazonaws.com -U sampleuser -d samplecluster -p 5439
 
 
 
